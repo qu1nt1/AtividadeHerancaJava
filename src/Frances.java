@@ -6,11 +6,11 @@ public class Frances {
     private static Map<String, String> questoes = new HashMap<>();
 
     public static void carregarQuestoesPredefinido() {
-        questoes.put("How do you say 'cachorro' in Japanese?", "犬");
-        questoes.put("How do you say 'gato' in Japanese?", "猫");
-        questoes.put("How do you say 'livro' in Japanese?", "本");
-        questoes.put("How do you say 'casa' in Japanese?", "家");
-        questoes.put("How do you say 'carro' in Japanese?", "車");
+        questoes.put("How do you say 'cachorro' in French?", "chien");
+        questoes.put("How do you say 'gato' in French?", "chat");
+        questoes.put("How do you say 'livro' in French?", "livre");
+        questoes.put("How do you say 'casa' in French?", "maison");
+        questoes.put("How do you say 'carro' in French?", "voiture");
     }
 
     public static void adicionarQuestao(String pergunta, String respostaCorreta) {
